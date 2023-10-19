@@ -1,0 +1,200 @@
+@font-face {
+    font-family: font-menu;
+    src: url(Gabarito-Regular.ttf);
+}
+
+@font-face {
+    font-family: font-h3;
+    src: url(Kalam-Regular.ttf);
+}
+ 
+/* Menu */
+#active{
+    color: blue;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: right;
+    
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav li{
+    float: left;
+    width: 10%;
+    text-align: center;
+
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    left: 100px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    font-family: font-menu;
+    font-size:larger;
+}
+
+
+/*  Home  */
+
+.container{
+    background-color: #87CEFA;
+    height: 600px;
+    position: relative;
+}
+
+.home{
+    background-color:  #c0dfef;
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-align: center;
+}
+
+.colortext1{
+    color: blue;
+}
+
+h3{
+    font-family: font-h3;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-right: 500px;
+}
+
+p{
+    font-size: 25px;
+    margin-right:450px;
+    margin-top: 10px;
+}
+
+/* Footer Home Page */
+
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+    height: 200px;
+    line-height: 0.1px;
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+
+/* icons*/
+
+.sm a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 36px;
+    width: 60px;
+    height: 60px;
+    color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 60%;
+    margin: 0 7px;
+  }
+
+  /* A Propos*/
+
+.text-propos{
+    margin-right: 850px;
+    margin-top: 40px;
+}
+
+.propos{
+    background-color:  #c0dfef;
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-align: center;
+}
+
+.text2-propos{
+    width: 1200px;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 1000px;
+}
+
+.btn{
+   margin-top: 65px;
+   margin-right: 950px;
+   background-color:gray;
+   height: 50px;
+   width: 150px;
+   border-radius: 12px;
+}
+
+/* Services*/
+.text-services{
+    margin-right: 850px;
+    margin-top: 30px;
+}
+
+.text2-services{
+    width: 1200px;
+    text-align: justify;
+    margin-top: -20px;
+    margin-left: 50px;
+    width: 1000px;
+}
+
+.services{
+    background-color:  #c0dfef;
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-align: center;
+}
+
+.img1{
+    width: 600px;
+    height:350px;
+    margin-top: -50px;
+}
+
+.btn-services{
+    margin-top: -100px;
+    margin-right: 950px;
+    background-color:gray;
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+ }
